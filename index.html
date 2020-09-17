@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width",initial-scale=1.0>
+	<title>Kajol Portfolio Website</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudfare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+	<link rel="stylesheet" href="https.//cdnjs.cloudfare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- fonts used in document -->
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+code+Pro:400,900|Source+Sans+Pro:300,900&display=swap">
+
+	<link rel="stylesheet" href="styles/style_n.css">
+
+</head>
+<body>
+	<!-- <header> -->
+		<div class="logo">
+			<img src="" alt="">
+		</div>
+		<button class="nav-toggle" aria-label="toggle navigation">
+			<span class="hamburger"></span>
+		</button>
+
+		<nav class="nav">
+				<div class="navigation">
+			<ul>
+				<li><a href="#" data-text="Home" class="nav__link">Home</a></li>
+				<li><a href="#services" data-text="My Skills" class="nav__link">My Skills</a></li>
+				<li><a href="#about" data-text="About me" class="nav__link">About me</a></li>
+				<li><a href="#work" data-text="My Work" class="nav__link">My Work</a></li>
+			</ul>
+			</div>
+		</nav>
+	<!-- </header> -->
+
+
+<!-- Introduction-->
+	<section class="intro" id="home">
+		<h1 class="section__title section__title--intro">
+			Hi, I am <strong> KAJOL MUTHA</strong>
+		</h1>
+		<p class="section__subtitle section__subtitle--intro">Graphic Designer &<br>Scientific Logo Maker</p>
+		<img src="images/kajol1_1.jpg" style="border-radius: 50%" class="intro__img">
+	</section>
+
+
+
+<!-- MY_SERVICES -->
+<section class="my-services" id="services">
+	<h2 class="section__title section__title--services">What I do</h2>
+	<div class="services">
+		<div class="service">
+			<h3>Graphic Designer</h3>
+			<p>I really love to design various types of websites and integrate new technologies in it to enhance its overlook.</p>
+		</div>
+
+		<!-- service 1 closed-->
+		<div class="service">
+			<h3>Data Science</h3>
+			<p>Having a great experience in AI-Adventures company, I really like to play over with datasets and make analysis over it using various Python modules.</p>
+		</div>
+
+		<!-- service 2 closed-->
+		<div class="service">
+			<h3>Machine Learning</h3>
+			<p>Learning over some basic models of Machine Learning like SVM,Linear Regression, I have earned some basic knowledge related ML.</p>
+		</div>
+
+		<!-- service 3 closed-->
+	</div>
+	<!-- End of Services -->
+	<a href="#work" class="btn">My Work</a>
+</section>
+
+<section class="about-me" id="about">
+	<h2 class="section__title section__title--about">Who I am</h2>
+	<p class="section__subtitle section__subtitle--about">Learning Enthusiast</p>
+
+	<div class="about-me__body">
+		<p>I am an enthusiastic, hard working person always seeking for knowledge,new ideas and innovation and its
+		practical implementation.I am a person who is positive about every aspect of life. There are many things I like to do, to see, and to experience.I am able to work well both in a team environment as well as using own
+		initiative.</p>
+		<p>I am currently being interned as a Software Developer in AI-Adventure firm based at Pune(FC-Road).During the Covid pandemic. I have also successfuly completed an online internship under Verzeo company.</p>
+	</div>
+		<img src="images/kajol2.jpg" alt="" class="about-me__img">
+</section>
+
+
+<!-- MY Work -->
+
+<section class="my-work" id="work">
+	<h2 class="section__title section__title--work">My Work</h2>
+	<p class="section__subtitle section__subtitle--work">A Selection of my range of work</p>
+
+	<div class="didi">
+		<ul>
+			<li class="list active" data-filter="All">All</li>
+			<li class="list" data-filter="Magazine">Social Media Poster</li>
+			<li class="list" data-filter="Manipulation">Manipulation</li>
+			<li class="list" data-filter="Digital">Digital Card & Logo</li>
+			<li class="list" data-filter="Calendar">Calendar</li>
+			<li class="list" data-filter="Brand">Brand Design</li>
+		</ul>
+
+		<div class="product">
+			<div class="itemBox Magazine"><img src="images/Akara/2.jpg"></div>
+			<div class="itemBox Manipulation"><img src="images/design/1_1.png"></div>
+			<div class="itemBox Calendar"><img src="images/calendar/5.jpg"></div>
+			<div class="itemBox Digital"><img src="images/vc_logo/1_1	.png"></div>
+			<div class="itemBox Brand"><img src="images/freshpri/coffee.png"></div>				
+
+			<div class="itemBox Magazine"><img src="images/Akara/4.jpg"></div>
+			<div class="itemBox Manipulation"><img src="images/design/2.png"></div>
+			<div class="itemBox Calendar"><img src="images/calendar/1.jpg"></div>
+			<div class="itemBox Digital"><img src="images/vc_logo/3_1.jpg"></div>
+			<div class="itemBox Brand"><img src="images/freshpri/newyear_1.jpg"></div>
+
+			<div class="itemBox Magazine"><img src="images/Akara/5.png"></div>
+			<div class="itemBox Manipulation"><img src="images/vc_logo/3_1.png"></div>
+			<div class="itemBox Calendar"><img src="images/calendar/4.jpg"></div>
+			<div class="itemBox Digital"><img src="images/vc_logo/4.png"></div>
+			<div class="itemBox Brand"><img src="images/freshpri/charlie.png"></div>
+			<div class="itemBox Brand"><img src="images/freshpri/berry.png"></div>	
+		</div>
+
+	</div>
+
+</section>
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous">
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		$('.list').click(function(){
+			const value = $(this).attr('data-filter');
+			if(value == 'All'){
+				$('.itemBox').show('1000');
+			}
+			else{
+				$('.itemBox').not('.'+value).hide('1000');
+				$('.itemBox').filter('.'+value).show('1000');
+			}
+		})
+
+
+		$('.list').click(function(){
+			$(this).addClass('active').siblings().removeClass('active');
+		})
+	})
+</script>
+<!-- -------------Footer------------- -->
+
+<footer class="footer">
+	<!-- replace with email address -->
+	<h3 style="color: blue;">Connect with Me</h3>
+	<ul class="social-list">
+		<li class="social-list__item">
+			<a class="social-list__link" href="https://www.linkedin.com/in/kajol-mutha-b5b635140/">
+				<i class="fa fa-linkedin-square fa-2x"  style="color: deepskyblue"></i>
+			</a>
+		</li>
+		<li class="social-list__item">
+			<a class="social-list__link" href="https://www.facebook.com/kajol.mutha.5">
+				<i class="fa fa-facebook fa-2x"></i>
+			</a>
+		</li>
+		<li class="social-list__item">
+			<a class="social-list__link" href="https://gmail.com">
+				<i class="fa fa-instagram fa-2x" style="color:red" ></i>
+			</a>
+		</li>
+		
+		<!-- <li class="social-list__item"><a class="social-list__link"></a></li> -->
+	</ul>
+</footer>
+<script src="javascript/js1.js"></script>
+</body>
+</html> 
